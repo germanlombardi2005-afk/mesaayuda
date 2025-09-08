@@ -1,0 +1,44 @@
+{
+  "usuarios": [
+    {
+      "id": "803a62c8-78c8-4b63-9106-73af215d504b",
+      "nombre": "Dr. Pedro E. Colla",
+      "contacto": "colla.pedro@gmail.com",
+      "estado": "usuario habilitado",
+      "fecha_alta": "01-02-2024",
+      "password": "secret",
+      "fecha_ultimo_ingreso": "6/9/2025",
+      "activo": true,
+      "registrado": true
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "nombre": "María González",
+      "contacto": "maria.gonzalez@email.com",
+      "estado": "usuario habilitado",
+      "fecha_alta": "15-03-2024",
+      "password": "password123",
+      "fecha_ultimo_ingreso": "7/9/2025",
+      "activo": true,
+      "registrado": true
+    }
+  ],
+  "tickets": [
+    {
+      "id": 12345,
+      "usuario_id": "803a62c8-78c8-4b63-9106-73af215d504b",
+      "descripcion": "Error al hacer un pedido---------",
+      "estado": "inicial",
+      "fecha_alta": "10/9/2025 14:30:00",
+      "fecha_cierre": null
+    },
+    {
+      "id": 67890,
+      "usuario_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "descripcion": "Problema con facturación",
+      "estado": "en progreso",
+      "fecha_alta": "11/9/2025 10:15:00",
+      "fecha_cierre": null
+    }
+  ]
+}
