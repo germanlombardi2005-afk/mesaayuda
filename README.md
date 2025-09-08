@@ -1,21 +1,22 @@
 # Servidor JSON Simulado para Sistema de Mesa de Ayuda
 
-Este repositorio contiene un servidor JSON simulado para pruebas del sistema de mesa de ayuda.
+Este repositorio contiene un servidor JSON simulado en typicode solo puede simular GET.
 
 ## Estructura de datos
 
 ### Usuarios
+
 - GET `/usuarios?id=XXX` - Obtener usuario por ID
-- POST `/usuarios/registrar` - Registrar nuevo usuario (simulado)
-- POST `/usuarios/login` - Login de usuario (simulado)
-- POST `/usuarios/logout` - Logout de usuario (simulado)
+- POST `/usuarios/registrar` - Registrar nuevo usuario (NO se puede simular solo se permite GET)
+- POST `/usuarios/login` - Login de usuario (NO se puede simular solo se permite GET)
+- POST `/usuarios/logout` - Logout de usuario (NO se puede simular solo se permite GET)
 
 ### Tickets
 - GET `/tickets?id=XXX` - Obtener ticket por ID
-- POST `/ticket/crear` - Crear nuevo ticket (simulado)
-- PUT `/actualizar/ticket?id=XXX` - Actualizar ticket (simulado)
+- POST `/ticket/crear` - Crear nuevo ticket (NO se puede simular solo se permite GET)
+- PUT `/actualizar/ticket?id=XXX` - Actualizar ticket (NO se puede simular solo se permite GET)
 
-## Uso con JSONPlaceholder
+## Server emulator como Typicode
 
 Accede a los endpoints en:
 `https://my-json-server.typicode.com/germanlombardi2005-afk/mesaayuda/`
@@ -26,6 +27,5 @@ Accede a los endpoints en:
 - https://my-json-server.typicode.com/germanlombardi2005-afk/mesaayuda/tickets
 - https://my-json-server.typicode.com/germanlombardi2005-afk/mesaayuda/tickets?id=12345
 
-## Notas importantes
-- JSONPlaceholder es de solo lectura, las operaciones POST/PUT son simuladas
+## Nota:
 - Para operaciones completas de escritura, se necesita implementar un servidor JSON Server local
