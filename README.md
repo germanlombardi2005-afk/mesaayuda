@@ -7,14 +7,14 @@ Este repositorio contiene un servidor JSON simulado en typicode solo puede simul
 ### Usuarios
 
 - GET `/usuarios?id=XXX` - Obtener usuario por ID
-- POST `/usuarios/registrar` - Registrar nuevo usuario (NO se puede simular solo se permite GET)
-- POST `/usuarios/login` - Login de usuario (NO se puede simular solo se permite GET)
-- POST `/usuarios/logout` - Logout de usuario (NO se puede simular solo se permite GET)
+- POST `/usuarios/registrar` - Registrar nuevo usuario 
+- POST `/usuarios/login` - Login de usuario 
+- POST `/usuarios/logout` - Logout de usuario 
 
 ### Tickets
 - GET `/tickets?id=XXX` - Obtener ticket por ID
-- POST `/ticket/crear` - Crear nuevo ticket (NO se puede simular solo se permite GET)
-- PUT `/actualizar/ticket?id=XXX` - Actualizar ticket (NO se puede simular solo se permite GET)
+- POST `/ticket/crear` - Crear nuevo ticket 
+- PUT `/actualizar/ticket?id=XXX` - Actualizar ticket 
 
 ## Server emulator como Typicode
 
