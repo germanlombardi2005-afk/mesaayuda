@@ -62,7 +62,7 @@ En Raw (LA SIMULACION SOLO TE GENERA LA ID ESTO SE PUEDE CAMBIAR DESDE POSTMAN (
 }
 ```
 - ES MAS COMPLICADO SIMULAR UN LOGIN / REGISTER / LOGOUT SIN LOGICA PERO PODRIA SIMULARSE.
-PODRIAS TAL VEZ HACER UN POST EN https://my-json-server.typicode.com/germanlombardi2005-afk/mesaayuda/usuarios FINGIENDO QUE PONES LA CONTRASEÑA Y EL CORREO:
+TAL VEZ HACER UN POST EN https://my-json-server.typicode.com/germanlombardi2005-afk/mesaayuda/usuarios FINGIENDO QUE PONES LA CONTRASEÑA Y EL CORREO:
 ```json
 {
   "contacto": "colla.pedro@gmail.com",
