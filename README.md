@@ -33,15 +33,13 @@ Accede a los endpoints en:
 - TODO LO MENCIONADO SE DEBE HACER EN POSTMAN O EN LA APP DE TU PREFERENCIA. GOOGLE SOLO ADMITE GET
 - COMENZEMOS CON PATCH MAS EN ESPECIFICO CAMBIAR LA DESCRIPCION DE UN TICKET
 MODIFICAMOS EL TICKET: 12345
-```
+
 LINK PATCH: https://my-json-server.typicode.com/germanlombardi2005-afk/mesaayuda/tickets/12345
-```
-```
+
 En Headers: Key: Content-Type y Value: application/json
-```
-```
+
 En Raw: JSON y cambiamos solo la descripcion:
-```
+
 ```json
 {
   "descripcion": "Problemas para hacer una compra"
@@ -49,12 +47,11 @@ En Raw: JSON y cambiamos solo la descripcion:
 ```
 - AHORA SERA CREAR UN TICKET:
 LINK "POST" https://my-json-server.typicode.com/germanlombardi2005-afk/mesaayuda/tickets
-```
+
 Headers: Content-Type: application/json
-```
-```
+
 En Raw (LA SIMULACION SOLO TE GENERA LA ID ESTO SE PUEDE CAMBIAR DESDE POSTMAN (usando Pre-request Script para te pida menos datos por ejemplo solo la descripcion y tu usuario id. Y el ponga la fecha y los estados "No verifique como funciona esto") O COMO YA DIMOS PODRIAS CREAR UN BACKEND PROPIO CON NODE.JS + EXPRESS):
-```
+
 ```json
 {
   "usuario_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
@@ -72,7 +69,6 @@ PODRIAS TAL VEZ HACER UN POST EN https://my-json-server.typicode.com/germanlomba
   "password": "secret"
 }
 ```
-```
+
 Y LUEGO HACER UN: 
 GET https://my-json-server.typicode.com/germanlombardi2005-afk/mesaayuda/usuarios?contacto=colla.pedro@gmail.com&password=secret
-```
