@@ -45,13 +45,13 @@ LINK "POST" https://my-json-server.typicode.com/germanlombardi2005-afk/mesaayuda
 Headers: Content-Type: application/json
 En Raw (LA SIMULACION SOLO TE GENERA LA ID ESTO SE PUEDE CAMBIAR DESDE POSTMAN (usando Pre-request Script para te pida menos datos por ejemplo solo la descripcion y tu usuario id. Y el ponga la fecha y los estados "No verifique como funciona esto") O COMO YA DIMOS PODRIAS CREAR UN BACKEND PROPIO CON NODE.JS + EXPRESS):
 
-{
-  "usuario_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-  "descripcion": "No puedo acceder a mi cuenta",
-  "estado": "inicial",
-  "fecha_alta": "16/9/2025 15:30:00",
+{__
+  "usuario_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",__
+  "descripcion": "No puedo acceder a mi cuenta",__
+  "estado": "inicial",__
+  "fecha_alta": "16/9/2025 15:30:00",__
   "fecha_cierre": null
-}
+}__
 
 - ES MAS COMPLICADO SIMULAR UN LOGIN / REGISTER / LOGOUT SIN LOGICA PERO PODRIA SIMULARSE.
 PODRIAS TAL VEZ HACER UN POST EN https://my-json-server.typicode.com/germanlombardi2005-afk/mesaayuda/usuarios FINGIENDO QUE PONES LA CONTRASEÑA Y EL CORREO:
